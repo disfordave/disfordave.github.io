@@ -21,10 +21,10 @@ body {
     right: 35px;
     margin: 0;
     text-align: right;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 10.5px;
+    padding-bottom: 10.5px;
     z-index: 999;
-    font-size: 18.666px;
+    font-size: 18px;
     
 }
 
@@ -34,7 +34,20 @@ hr {
 
 a {
     text-decoration: none;
-    color: midnightblue;
+    color: darkslategray;
+    
+}
+
+a:hover {
+    color: darkcyan;
+}
+
+.list-hyperlink {
+    font-size: 18px;
+}
+
+p {
+    font-size: 18px;
 }
 
 .wrapper {
@@ -72,11 +85,16 @@ footer {
 }
 .text-container {
     max-width: 500px;
+   
 }
 }
 @media (max-width: 850px) {
 .wrapper {
     padding-left: 135px;
+}
+
+.text-container {
+    padding-right: 135px;
 }
 }
 @media (max-width: 700px){
@@ -85,11 +103,19 @@ footer {
     padding-left: 100px;
     padding-bottom: 100px;
 }
+
+.text-container {
+    padding-right: 100px;
+}
 }
 @media (max-width: 600px)
 { .wrapper {
     padding-top: 160px;
     padding-left: 80px;
+}
+
+.text-container {
+    padding-right: 80px;
 }
 }
 @media (max-width: 500px)
