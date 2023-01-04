@@ -22,8 +22,9 @@ a {
 
 .wrapper {
     position: relative;
-    padding-top: 200px;
-    padding-left: 100px;
+    padding-top: 225px;
+    padding-left: 185px;
+    padding-bottom: 200px;
 }
 
 a.footer-link {
