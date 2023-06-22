@@ -86,7 +86,11 @@ footer {
     position: relative;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 35px;
+    padding-right: 35px;
+}
+
+footer p {
+    text-align: right;
 }
 
 .text-container {
