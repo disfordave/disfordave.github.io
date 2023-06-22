@@ -34,12 +34,12 @@ hr {
 
 a {
     text-decoration: none;
-    color: darkslategray;
+    color: darkcyan;
     
 }
 
 a:hover {
-    color: darkcyan;
+    color: darkslategray;
 }
 
 .list-hyperlink {
@@ -48,6 +48,22 @@ a:hover {
 
 p {
     font-size: 18px;
+}
+
+#more-button {
+    display: inline;
+}
+
+#less-button {
+    display: none;
+}
+
+#hidden {
+    display: none;
+}
+
+#hidden-2 {
+    display: none;
 }
 
 .wrapper {
