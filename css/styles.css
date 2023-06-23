@@ -4,6 +4,22 @@ body {
     line-height: 1.5;
 }
 
+.bg-image {
+    z-index: 0;
+    position: absolute;
+    right: 0;
+    top: 200px;
+    bottom: 0;
+    overflow-y: hidden;
+}
+
+.bg-image img {
+    max-width: 400px;
+    height: auto; /* Maintain the aspect ratio */
+    margin-right: -50px; /* Optionally shift the image to the left to only show part of it */
+
+}
+
 #logo {
     position: absolute;
     width: 200px;
@@ -105,16 +121,37 @@ footer p {
 }
 .text-container {
     max-width: 500px;
-   
 }
+.bg-image img {
+    margin-right: -50px;
 }
-@media (max-width: 850px) {
+
+}
+
+@media (max-width: 1000px) {
+    .bg-image img {
+        max-width: 300px;
+        margin-right: -60px;
+    }
+
+    .bg-image {
+        top: 200px;
+        
+    }
+}
+
+@media (max-width: 870px) {
 .wrapper {
     padding-left: 135px;
 }
 
 .text-container {
     padding-right: 135px;
+}
+
+.bg-image img {
+
+    margin-right: -150px;
 }
 }
 @media (max-width: 700px){
@@ -127,8 +164,14 @@ footer p {
 .text-container {
     padding-right: 100px;
 }
+
+.bg-image img {
+    max-width: 250px;
+    margin-right: -120px;
 }
-@media (max-width: 600px)
+
+}
+@media (max-width: 650px)
 { .wrapper {
     padding-top: 160px;
     padding-left: 80px;
@@ -137,6 +180,12 @@ footer p {
 .text-container {
     padding-right: 80px;
 }
+
+.bg-image img {
+    max-width: 200px;
+    margin-right: -110px;
+}
+
 }
 @media (max-width: 500px)
  {
@@ -148,5 +197,13 @@ footer p {
     .text-container {
         padding-right: 35px;
     }
+
+    .bg-image {
+        top: 200px;
+        
+    }
     
+    .bg-image img {
+        max-width: 150px;
+    }
 }
