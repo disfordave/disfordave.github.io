@@ -68,10 +68,12 @@ p {
 
 #more-button {
     display: inline;
+    cursor: pointer;
 }
 
 #less-button {
     display: none;
+    cursor: pointer;
 }
 
 #hidden {
