@@ -9,7 +9,7 @@ body {
     position: absolute;
     right: 0;
     top: 200px;
-    bottom: 0;
+    /* bottom: 0; */
     overflow-x: hidden;
     overflow-y: hidden;
 }
