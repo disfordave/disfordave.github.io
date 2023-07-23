@@ -1,7 +1,15 @@
+:root {
+    --background-color: #ffffff;
+    --font-color: #000000;
+    --hyperlink-color: #008b8b;
+}
+
 body {
     font-family: Inter, Helvetica, Arial, sans-serif;
     margin: 0;
     line-height: 1.5;
+    background-color: var(--background-color);
+    color: var(--font-color);
 }
 
 .bg-image {
@@ -51,7 +59,7 @@ hr {
 
 a {
     text-decoration: none;
-    color: darkcyan;
+    color: var(--hyperlink-color);
     
 }
 
@@ -59,12 +67,9 @@ a:hover {
     color: darkslategray;
 }
 
-.list-hyperlink {
-    font-size: 18px;
-}
 
-p {
-    font-size: 18px;
+p, .list-hyperlink {
+    font-size: 1.1rem;
 }
 
 #more-button {
@@ -93,7 +98,7 @@ p {
 }
 
 a.no-color-link {
-    color: black;
+    color: var(--font-color);
 }
 
 a.no-color-link:hover {
@@ -115,6 +120,16 @@ footer p {
 .text-container {
     max-width: 600px;
 }
+
+
+@media (prefers-color-scheme: dark) {
+    /* Re-assign previous variables */
+    :root {
+        --background-color: #181818;
+        --font-color: #f5f5f5;
+        --hyperlink-color: #00cece;
+    }
+  }
 
 
 @media (max-width: 1200px) {
