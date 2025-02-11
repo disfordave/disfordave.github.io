@@ -1,3 +1,3 @@
 # Hello
 
-This is a website about DisForDave, with pure HTML.
+This is a website about DisForDave, with pure HTML and JavaScript.
